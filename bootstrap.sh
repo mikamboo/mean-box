@@ -25,6 +25,8 @@ sudo apt-get install -y mongodb-org
 # Install Node.js tools
 sudo npm install -g bower grunt-cli yo generator-meanjs
 
+echo -e  "\n--- INSTALLATION FINISHED ---\n"
+
 # TESTS installed packages
 git --version && node -v && npm -v && mongo -version
 
