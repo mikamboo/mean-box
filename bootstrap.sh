@@ -3,9 +3,9 @@
 
 ############## MEAN STACK INSTALLATION ################
 
-# Install git 
+# Install git & make tools
 sudo apt-get update --yes
-sudo apt-get -y install git
+sudo apt-get install -y git gcc make build-essential
 
 # Install nodejs (include npm)
 sudo apt-get update
